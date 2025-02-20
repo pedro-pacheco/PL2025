@@ -125,7 +125,7 @@ def listOpusByPeriod(first_opus_line, string, ordered_periods):
             d[period] = [listOfOpus[i]]
         i+=1
 
-    #sort dictionary 
+    #sort dictionary values
     for period in d:
         sorted_opus = sorted(d.get(period), key=str.casefold)
         d[period] = sorted_opus
@@ -154,12 +154,16 @@ def main():
     string = string.strip("\n")                 #remove last \n
 
     #list all composers
-    #list_composers(string)
+    print("\nLIST OF COMPOSERS")
+    list_composers(string)
 
 
     #number of opus by period
+    print("\nNumber of Opus by Period")
     periods = opusByPeriod(string)
 
+    #list of opus by period
+    print("\nList of Opus by Period")
     listOpusByPeriod(firsttwolines, string, periods)
 
 
