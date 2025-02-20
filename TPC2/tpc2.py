@@ -91,7 +91,7 @@ def listOpusByPeriod(first_opus_line, string, ordered_periods):
 
 
     #finds all the durations composers and periods and creates a new string from the resulting list
-    aux = "".join(re.findall(r":\d{2}:\d{2};[É\w\. äöüÄÖÜßÉ\-']+", string))
+    aux = "".join(re.findall(r":\d{2}:\d{2};[É\w\. äöüÄÖÜßÉ\-,!']+", string))
 
     meme = "".join(aux)
 
