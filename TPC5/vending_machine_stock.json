@@ -1,0 +1,62 @@
+[
+  {
+    "code": "A1",
+    "name": "Snickers Bar",
+    "stock": 10,
+    "price": 1.20
+  },
+  {
+    "code": "A2",
+    "name": "Lay's Classic",
+    "stock": 8,
+    "price": 1.50
+  },
+  {
+    "code": "B1",
+    "name": "Bottled Water (500ml)",
+    "stock": 15,
+    "price": 1.00
+  },
+  {
+    "code": "B2",
+    "name": "Coca-Cola (330ml)",
+    "stock": 12,
+    "price": 1.80
+  },
+  {
+    "code": "C1",
+    "name": "Oreo Cookies",
+    "stock": 5,
+    "price": 1.40
+  },
+  {
+    "code": "C2",
+    "name": "Mixed Nuts",
+    "stock": 7,
+    "price": 2.10
+  },
+  {
+    "code": "D1",
+    "name": "Red Bull",
+    "stock": 6,
+    "price": 2.70
+  },
+  {
+    "code": "D2",
+    "name": "Apple Juice (330ml)",
+    "stock": 10,
+    "price": 1.90
+  },
+  {
+    "code": "E1",
+    "name": "Kit Kat",
+    "stock": 9,
+    "price": 1.30
+  },
+  {
+    "code": "E2",
+    "name": "Trident Mint",
+    "stock": 12,
+    "price": 1.10
+  }
+]
